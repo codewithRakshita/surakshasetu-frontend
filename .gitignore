@@ -1,0 +1,8 @@
+node_modules
+Backend
+.env
+dist
+build
+
+public/assets/*.mp4
+public/*.pdf

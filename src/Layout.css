@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(270deg, #87cefa, #cdecf7, #a3d5ff);
+  background-size: 600% 600%;
+  animation: gradientShift 15s ease infinite;
+  min-height: 100vh;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+/* Header */
+.header {
+  height: 60px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+  color: #010101;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  z-index: 1000;
+  position: relative;
+  top: 45px;
+}
+
+.menu2,
+.globe2 {
+  cursor: pointer;
+}
+.menu2,.globe2 img{
+  width: 28px;
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+.header img {
+  width: 35px;
+}
+
+.layout-icons{
+  position: relative;
+  left: 380px;
+  top: 5px;
+  display: flex;
+  gap: 15px;
+}
+
+.logo-main{
+  position: relative;
+  right: 350px;
+  top: 4px;
+}
+.logo-main img{
+  width: 200px;
+}
+
+/* Page Content (outlet) */
+.page-content {
+  flex: 1;
+  padding: 20px;
+}
+
+
+/* Footer */
+.footer {
+  background: #3f668d;
+  text-align: center;
+  padding: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer a:hover {
+  color: #c0fdb7;
+}
