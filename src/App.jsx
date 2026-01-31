@@ -13,7 +13,7 @@ import Earthquakemcq from "./Earthquakemcq";
 import Earthquakescenario from "./Earthquakescenario";
 import Earthquaketrue from "./Earthquaketrue";
 import FloodMCQ from "./Floodmcq";
-import FloodScenario from "./floodscenario";
+import FloodScenario from "./Floodscenario";
 import FloodTrue from "./floodtrue";
 import LandslideMCQ from "./landslidemcq";
 import LandslideScenario from "./landslidescenario";
