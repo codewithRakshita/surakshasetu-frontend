@@ -13,10 +13,10 @@ import Earthquakemcq from "./Earthquakemcq";
 import Earthquakescenario from "./Earthquakescenario";
 import Earthquaketrue from "./Earthquaketrue";
 import FloodMCQ from "./Floodmcq";
-import FloodScenario from "./Floodscenario";
-import FloodTrue from "./floodtrue";
-import LandslideMCQ from "./landslidemcq";
-import LandslideScenario from "./landslidescenario";
+import Floodscenario from "./Floodscenario"
+import FloodTrue from "./Floodtrue";
+import LandslideMCQ from "./Landslidemcq";
+import LandslideScenario from "./Landslidescenario";
 import LandslideTrue from "./Landslidetrue";
 import ForestFireMCQ from "./Forestfiremcq";
 import ForestFireScenario from "./Forestfirescenario";
